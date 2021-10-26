@@ -48,3 +48,14 @@ a, .btn-link {
         right: 0.75rem;
         top: 0.5rem;
     }
+
+    .settings-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 10px;
+        grid-auto-rows: minmax(100px auto);
+    }
+
+    .settings-box {
+       
+    }
